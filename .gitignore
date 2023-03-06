@@ -1,8 +1,5 @@
-/bin/*
 OutputFiles/*
 .cache/*
 Reports/*
-Libs/*
-.classpath
 /.cache/*
 settings/*
