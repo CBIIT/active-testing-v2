@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MTP_22.1</name>
+   <name>MTP_22.11_QA</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,13 +10,13 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>e7702c5d-0307-4080-be69-6ff3995305ee</testSuiteGuid>
+   <testSuiteGuid>b7d3f50f-63c5-4cc2-9485-489031858e8e</testSuiteGuid>
    <testCaseLink>
-      <guid>3a350b74-861f-4243-8ce3-b9743e005c1f</guid>
+      <guid>eed3f280-9330-48b7-b5ea-150d1526fcc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Visual_Test_Case_Full_Page</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
