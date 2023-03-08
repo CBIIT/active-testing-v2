@@ -32,7 +32,7 @@ WebUI.setViewPortSize(1200, 99999)
 
 WebUI.navigateToUrl(url)
 
-Thread.sleep(50000)
+Thread.sleep(5000)
 
 WebUI.takeFullPageScreenshotAsCheckpoint(checkPointName)
 
