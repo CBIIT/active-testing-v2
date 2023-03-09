@@ -19,22 +19,13 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.openBrowser('')
-
-String testName = "$testName"
-
-String url = "$host" + "$suffixUrl"
-
-String checkPointName = testName
-
-//WebUI.openBrowser('')
-//for 
 WebUI.maximizeWindow()
-
 WebUI.setViewPortSize(1200, 99999)
-
-WebUI.navigateToUrl(url)
-
-Thread.sleep(20000)
-
-WebUI.takeFullPageScreenshotAsCheckpoint(checkPointName)
-
+TestData td  = findTestData("Data Files/Test_Data")
+for (int i= 1; i<=td.getRowNumbers(); i++) {
+	String url = td.getObjectValue('host', i) + td.getObjectValue('suffixUrl', i)
+	WebUI.navigateToUrl(url)
+	Thread.sleep(50000)
+	WebUI.takeFullPageScreenshotAsCheckpoint(td.getObjectValue('testName', i))
+}
+WebUI.closeBrowser()

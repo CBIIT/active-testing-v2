@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MTP_22.11_11-20,Chrome 110.0.0.0,,,2023-03-09 09:37:22,2023-03-09 09:37:40,18.353s,FAILED
+,,,,,,,
+Test Cases/openBrowser,Chrome 110.0.0.0,,,2023-03-09 09:37:22,2023-03-09 09:37:27,4.288s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-09 09:37:23,2023-03-09 09:37:27,3.695s,PASSED
+,,,,,,,
+Test Cases/Visual_Test_Case_Full_Page,Chrome 110.0.0.0,,,2023-03-09 09:37:36,2023-03-09 09:37:39,2.829s,FAILED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-09 09:37:36,2023-03-09 09:37:38,2.210s,PASSED
+testName = $testName,Chrome 110.0.0.0,,,2023-03-09 09:37:38,2023-03-09 09:37:38,0.000s,PASSED
+url = $host + $suffixUrl,Chrome 110.0.0.0,,,2023-03-09 09:37:38,2023-03-09 09:37:38,0.001s,PASSED
+checkPointName = testName,Chrome 110.0.0.0,,,2023-03-09 09:37:38,2023-03-09 09:37:38,0.000s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-09 09:37:38,2023-03-09 09:37:39,0.133s,PASSED
+"setViewPortSize(1200, 99999)",Chrome 110.0.0.0,,,2023-03-09 09:37:39,2023-03-09 09:37:39,0.269s,PASSED
+navigateToUrl(url),Chrome 110.0.0.0,,,2023-03-09 09:37:39,2023-03-09 09:37:39,0.166s,FAILED
+,,,,,,,
+Test Cases/CloseBrowser,Chrome 110.0.0.0,,,2023-03-09 09:37:39,2023-03-09 09:37:40,1.173s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-03-09 09:37:40,2023-03-09 09:37:40,0.682s,PASSED

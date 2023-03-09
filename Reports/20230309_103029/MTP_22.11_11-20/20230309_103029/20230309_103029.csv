@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MTP_22.11_11-20,Chrome 110.0.0.0,,,2023-03-09 10:30:32,2023-03-09 10:30:46,14.370s,ERROR
+,,,,,,,
+Test Cases/Visual_Test_Case_Full_Page - Copy,Chrome 110.0.0.0,,,2023-03-09 10:30:43,2023-03-09 10:30:46,2.735s,ERROR
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-09 10:30:44,2023-03-09 10:30:46,2.222s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-09 10:30:46,2023-03-09 10:30:46,0.140s,PASSED
+"setViewPortSize(1200, 99999)",Chrome 110.0.0.0,,,2023-03-09 10:30:46,2023-03-09 10:30:46,0.247s,PASSED
+"td = findTestData(""Data Files/Test_Data"")",Chrome 110.0.0.0,,,2023-03-09 10:30:46,2023-03-09 10:30:46,0.051s,PASSED
+"for ([i = 1, i <= rows, (i++)])",Chrome 110.0.0.0,,,2023-03-09 10:30:46,2023-03-09 10:30:46,0.001s,ERROR

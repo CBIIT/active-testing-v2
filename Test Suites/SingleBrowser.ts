@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MTP_22.11_11-20</name>
+   <name>SingleBrowser</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,30 +10,30 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b7d3f50f-63c5-4cc2-9485-489031858e8e</testSuiteGuid>
+   <testSuiteGuid>08d20166-1abe-4b0c-8a5d-a457c9198486</testSuiteGuid>
    <testCaseLink>
-      <guid>a15db20a-3ba7-49b3-b665-1a731a1e4214</guid>
+      <guid>9c989c47-b24b-410d-9fd7-26de3abe4c21</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual_Test_Case_Full_Page</testCaseId>
+      <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>84ad2b68-7972-4ace-b037-a279ffbf35e0</variableId>
+         <variableId>45dc5d0d-ee5b-48f5-b51a-ec0d54e14e3d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9b58c03b-28fc-4f9e-b0ea-bd30ce9d2bb0</variableId>
+         <variableId>a11a49b1-4e82-494a-a47f-816a31babdcd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b594f8ae-2000-41b4-a869-7dfa13996dda</variableId>
+         <variableId>c458b068-b293-4912-8334-e37e3a19fde4</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

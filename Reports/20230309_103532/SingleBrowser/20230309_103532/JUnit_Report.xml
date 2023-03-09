@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SingleBrowser" time="11.464" tests="1" failures="0" errors="1">
+   <testsuite name="SingleBrowser" tests="1" failures="0" errors="1" time="11.464" skipped="0" timestamp="2023-03-09 10:35:35" hostname="lollal - host.docker.internal" id="Test Suites/SingleBrowser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lollal\\Documents\\Katalon\\Local_agent\\active-testing\\Reports\\20230309_103532\\SingleBrowser\\20230309_103532"/>
+         <property name="logFiles" value="C:\\Users\\lollal\\Documents\\Katalon\\Local_agent\\active-testing\\Reports\\20230309_103532\\SingleBrowser\\20230309_103532\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lollal - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.87.22"/>
+         <property name="sessionId" value="71f57ae844207b0315759b7beee9624d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Visual_Test_Case_Full_Page - Copy" time="2.421" classname="Test Cases/Visual_Test_Case_Full_Page - Copy" status="ERROR">
+         <error type="ERROR" message="Test Cases/Visual_Test_Case_Full_Page - Copy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: rows for class: Script1678375523747
+	at Visual_Test_Case_Full_Page - Copy.run(Visual_Test_Case_Full_Page - Copy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678376132557.run(TempTestSuite1678376132557.groovy:36)
+"/>
+         <system-out><![CDATA[2023-03-09 10:35:44 - [TEST_CASE][ERROR] - Test Cases/Visual_Test_Case_Full_Page - Copy: Test Cases/Visual_Test_Case_Full_Page - Copy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: rows for class: Script1678375523747
+	at Visual_Test_Case_Full_Page - Copy.run(Visual_Test_Case_Full_Page - Copy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678376132557.run(TempTestSuite1678376132557.groovy:36)
+
+
+2023-03-09 10:35:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-03-09 10:35:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-03-09 10:35:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-03-09 10:35:44 - [MESSAGE][INFO] - Action delay is set to 5,000 milliseconds
+
+2023-03-09 10:35:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-03-09 10:35:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-03-09 10:35:46 - [MESSAGE][PASSED] - Current window maximized
+
+2023-03-09 10:35:46 - [TEST_STEP][PASSED] - setViewPortSize(1200, 99999): Viewport is set to new size with width = 1200 and height = 99999
+
+2023-03-09 10:35:46 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1200 and height = 99999
+
+2023-03-09 10:35:46 - [TEST_STEP][PASSED] - td = findTestData("Data Files/Test_Data"): null
+
+2023-03-09 10:35:46 - [TEST_STEP][ERROR] - for ([i = 1, i <= rows, (i++)]): Test Cases/Visual_Test_Case_Full_Page - Copy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: rows for class: Script1678375523747
+	at Visual_Test_Case_Full_Page - Copy.run(Visual_Test_Case_Full_Page - Copy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678376132557.run(TempTestSuite1678376132557.groovy:36)
+
+
+2023-03-09 10:35:46 - [MESSAGE][ERROR] - Test Cases/Visual_Test_Case_Full_Page - Copy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: rows for class: Script1678375523747
+	at Visual_Test_Case_Full_Page - Copy.run(Visual_Test_Case_Full_Page - Copy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678376132557.run(TempTestSuite1678376132557.groovy:36)]]></system-out>
+         <system-err><![CDATA[2023-03-09 10:35:44 - [TEST_CASE][ERROR] - Test Cases/Visual_Test_Case_Full_Page - Copy: Test Cases/Visual_Test_Case_Full_Page - Copy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: rows for class: Script1678375523747
+	at Visual_Test_Case_Full_Page - Copy.run(Visual_Test_Case_Full_Page - Copy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678376132557.run(TempTestSuite1678376132557.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-03-09 10:35:35 - [TEST_SUITE][ERROR] - SingleBrowser: Test Cases/Visual_Test_Case_Full_Page - Copy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: rows for class: Script1678375523747
+	at Visual_Test_Case_Full_Page - Copy.run(Visual_Test_Case_Full_Page - Copy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678376132557.run(TempTestSuite1678376132557.groovy:36)]]></system-out>
+      <system-err><![CDATA[2023-03-09 10:35:35 - [TEST_SUITE][ERROR] - SingleBrowser: Test Cases/Visual_Test_Case_Full_Page - Copy FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: rows for class: Script1678375523747
+	at Visual_Test_Case_Full_Page - Copy.run(Visual_Test_Case_Full_Page - Copy:25)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1678376132557.run(TempTestSuite1678376132557.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
