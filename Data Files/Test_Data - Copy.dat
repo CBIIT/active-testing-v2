@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Test_Data</name>
+   <name>Test_Data - Copy</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>922be132-ec7a-426e-b22e-ff58dbb1950f</dataFileGUID>
-   <dataSourceUrl>MTP_TEST_SHEET/test_cases_61-70.xlsx</dataSourceUrl>
+   <dataSourceUrl>MTP_TEST_SHEET/test_cases_71-80.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

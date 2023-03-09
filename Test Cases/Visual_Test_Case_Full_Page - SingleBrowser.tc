@@ -5,33 +5,6 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>87703bc7-8804-4b63-9955-c1ad10aad8c5</testCaseGuid>
-   <testDataLinks>
-      <combinationType>ONE</combinationType>
-      <id>92ef4fe8-25eb-4c54-87f1-6d06ffad8e66</id>
-      <iterationEntity>
-         <iterationType>ALL</iterationType>
-         <value></value>
-      </iterationEntity>
-      <testDataId>Data Files/Test_Data</testDataId>
-   </testDataLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>45dc5d0d-ee5b-48f5-b51a-ec0d54e14e3d</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>a11a49b1-4e82-494a-a47f-816a31babdcd</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c458b068-b293-4912-8334-e37e3a19fde4</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>

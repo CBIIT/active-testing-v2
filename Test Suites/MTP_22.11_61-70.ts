@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MTP_22.11_11-20</name>
+   <name>MTP_22.11_61-70</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,28 +12,37 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>b7d3f50f-63c5-4cc2-9485-489031858e8e</testSuiteGuid>
    <testCaseLink>
-      <guid>a15db20a-3ba7-49b3-b665-1a731a1e4214</guid>
+      <guid>14c3bdd2-7ffd-412a-85d5-303e4fd9b91c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual_Test_Case_Full_Page</testCaseId>
+      <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>24535f25-4d14-4a9e-9586-0283c4190b70</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/New Test Data</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>84ad2b68-7972-4ace-b037-a279ffbf35e0</variableId>
+         <variableId>45dc5d0d-ee5b-48f5-b51a-ec0d54e14e3d</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9b58c03b-28fc-4f9e-b0ea-bd30ce9d2bb0</variableId>
+         <variableId>a11a49b1-4e82-494a-a47f-816a31babdcd</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b594f8ae-2000-41b4-a869-7dfa13996dda</variableId>
+         <variableId>c458b068-b293-4912-8334-e37e3a19fde4</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

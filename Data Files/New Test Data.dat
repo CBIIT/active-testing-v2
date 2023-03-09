@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Test_Data</name>
+   <name>New Test Data</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>922be132-ec7a-426e-b22e-ff58dbb1950f</dataFileGUID>
-   <dataSourceUrl>MTP_TEST_SHEET/test_cases_61-70.xlsx</dataSourceUrl>
+   <dataFileGUID>121b549a-8c8c-42f9-97e4-e316039002f6</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
