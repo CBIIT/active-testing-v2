@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MTP_22.11_71-80 - Copy</name>
+   <name>MTP_22.11_100-110</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,7 +10,7 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>dcca447e-e4aa-4225-9174-b9608e039441</testSuiteGuid>
+   <testSuiteGuid>a0f49333-c3f8-40d3-91a0-c326244fdb91</testSuiteGuid>
    <testCaseLink>
       <guid>b2dc79c7-f58b-472e-a299-2d32f8fe9c6f</guid>
       <isReuseDriver>false</isReuseDriver>
@@ -18,12 +18,12 @@
       <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser - Copy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>7fa8cd5c-4ac5-401f-bef2-97ebef1ce88c</id>
+         <id>65c409df-c66c-4398-b402-c9ee7929afb8</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Test_Data - 71-80</testDataId>
+         <testDataId>Data Files/Test_Data -100-110</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
