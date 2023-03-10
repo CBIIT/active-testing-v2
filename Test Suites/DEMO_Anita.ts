@@ -15,7 +15,7 @@
       <guid>3efa52ad-efad-4ff7-9bfc-69f7d227d5d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser - Copy</testCaseId>
+      <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser 1-10</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>02d1114e-aa47-4e95-ba53-1c752f50e70d</id>

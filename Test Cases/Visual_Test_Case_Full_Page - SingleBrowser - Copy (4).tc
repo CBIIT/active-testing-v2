@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Visual_Test_Case_Full_Page - SingleBrowser - Copy (4)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5393332a-834b-4efb-8fa6-67782af87358</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0332636-ec8d-442d-b7f0-98c658b91917</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30f79fe5-3f87-4842-a18d-a933c223c1bc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c0a27ad-01e9-417a-b2d5-8853ce3be7c2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b0332636-ec8d-442d-b7f0-98c658b91917</id>
+      <masked>false</masked>
+      <name>testName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30f79fe5-3f87-4842-a18d-a933c223c1bc</id>
+      <masked>false</masked>
+      <name>host</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0c0a27ad-01e9-417a-b2d5-8853ce3be7c2</id>
+      <masked>false</masked>
+      <name>suffixUrl</name>
+   </variable>
+</TestCaseEntity>
