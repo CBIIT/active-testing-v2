@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>DEMO_Anita</name>
+   <name>MTP_22.11_ALL</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,15 +10,15 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>89029cab-0ba0-42fd-8c47-a28f1196a239</testSuiteGuid>
+   <testSuiteGuid>2f661639-e2a3-42c8-8896-756787e9a8a3</testSuiteGuid>
    <testCaseLink>
-      <guid>3efa52ad-efad-4ff7-9bfc-69f7d227d5d0</guid>
+      <guid>99e142a4-9af1-4a46-9a10-1b09fae22e5f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser - Copy</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>02d1114e-aa47-4e95-ba53-1c752f50e70d</id>
+         <id>f66a8b83-a2de-4e40-a339-0c225b156e0a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
