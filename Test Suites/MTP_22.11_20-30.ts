@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MTP_22.1</name>
+   <name>MTP_22.11_20-30</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,30 +10,39 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>e7702c5d-0307-4080-be69-6ff3995305ee</testSuiteGuid>
+   <testSuiteGuid>a8a84d54-d2fb-425c-8700-8e4db8be15de</testSuiteGuid>
    <testCaseLink>
-      <guid>3a350b74-861f-4243-8ce3-b9743e005c1f</guid>
+      <guid>b2dc79c7-f58b-472e-a299-2d32f8fe9c6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual_Test_Case_Full_Page</testCaseId>
+      <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser - Copy</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>55b57a22-6715-43ec-84b3-0a9b36793aaf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test_Data_20-30</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>84ad2b68-7972-4ace-b037-a279ffbf35e0</variableId>
+         <variableId>cd882761-c031-48c6-b70e-e74a26f16b81</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9b58c03b-28fc-4f9e-b0ea-bd30ce9d2bb0</variableId>
+         <variableId>383b9627-4e07-4fb1-9ca9-60993bcef1b9</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b594f8ae-2000-41b4-a869-7dfa13996dda</variableId>
+         <variableId>36466084-92c2-4f09-9154-66c1073fd640</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -12,7 +12,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Test_Data</testDataId>
+      <testDataId>Data Files/Test_Data_60-70</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
