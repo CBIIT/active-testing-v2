@@ -15,7 +15,7 @@
       <guid>b2dc79c7-f58b-472e-a299-2d32f8fe9c6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser 1-10</testCaseId>
+      <testCaseId>Test Cases/Visual_Test_Case_Full_Page - SingleBrowser-110-120</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5cb5a874-b61d-40bb-b6e4-4fad0a544d3f</id>
@@ -23,26 +23,26 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Test_Data -110-120</testDataId>
+         <testDataId>Data Files/Test_Data-110-120</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>cd882761-c031-48c6-b70e-e74a26f16b81</variableId>
+         <variableId>935352b5-5144-4657-be9f-a757a88eba4c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>383b9627-4e07-4fb1-9ca9-60993bcef1b9</variableId>
+         <variableId>34a7a985-57eb-411d-b8fe-4a334691e80f</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>36466084-92c2-4f09-9154-66c1073fd640</variableId>
+         <variableId>c05f1efa-9173-4289-a8d3-64c89ed829b2</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
