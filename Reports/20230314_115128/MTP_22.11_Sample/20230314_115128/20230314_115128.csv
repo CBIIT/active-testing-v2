@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MTP_22.11_Sample,Chrome 110.0.0.0,,,2023-03-14 11:51:40,2023-03-14 11:53:08,1m - 27.710s,PASSED
+,,,,,,,
+Test Cases/Visual_Test_Case_Full_Page - Sample,Chrome 110.0.0.0,,,2023-03-14 11:51:41,2023-03-14 11:53:08,1m - 26.466s,PASSED
+"openBrowser("""")",Chrome 110.0.0.0,,,2023-03-14 11:51:44,2023-03-14 11:51:54,10.463s,PASSED
+maximizeWindow(),Chrome 110.0.0.0,,,2023-03-14 11:51:54,2023-03-14 11:51:55,0.340s,PASSED
+"setViewPortSize(1200, 99999)",Chrome 110.0.0.0,,,2023-03-14 11:51:55,2023-03-14 11:51:55,0.691s,PASSED
+"td = findTestData(""Data Files/Sample"")",Chrome 110.0.0.0,,,2023-03-14 11:51:55,2023-03-14 11:51:58,2.333s,PASSED
+"for ([i = 1, i <= td.getRowNumbers(), (i++)])",Chrome 110.0.0.0,,,2023-03-14 11:51:58,2023-03-14 11:53:07,1m - 8.899s,PASSED
+closeBrowser(),Chrome 110.0.0.0,,,2023-03-14 11:53:07,2023-03-14 11:53:08,1.197s,PASSED
