@@ -32,7 +32,7 @@ for (int i = 1; i <= td.getRowNumbers(); i++) {
     WebUI.navigateToUrl(url)
 
     Thread.sleep(5000)
-
+System.print "hello" 
     WebUI.takeFullPageScreenshotAsCheckpoint(td.getObjectValue('testName', i))
 }
 

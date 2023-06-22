@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>121b549a-8c8c-42f9-97e4-e316039002f6</dataFileGUID>
-   <dataSourceUrl>MTP_TEST_SHEET/Chop_1.xlsx</dataSourceUrl>
+   <dataSourceUrl>MTP_TEST_SHEET/chop_fnl_test_cases_v2.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sheet1</sheetName>
+   <sheetName>ChoP_10</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
