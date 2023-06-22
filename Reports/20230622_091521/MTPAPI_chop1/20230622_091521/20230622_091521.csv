@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MTPAPI_chop1,Chrome 114.0.5735.134,,,2023-06-22 09:15:24,2023-06-22 09:18:52,3m - 28.685s,PASSED
+,,,,,,,
+Test Cases/MTP_1,Chrome 114.0.5735.134,,,2023-06-22 09:15:24,2023-06-22 09:18:52,3m - 28.433s,PASSED
+"openBrowser("""")",Chrome 114.0.5735.134,,,2023-06-22 09:15:24,2023-06-22 09:15:27,2.455s,PASSED
+maximizeWindow(),Chrome 114.0.5735.134,,,2023-06-22 09:15:27,2023-06-22 09:15:27,0.146s,PASSED
+"setViewPortSize(1779, 908)",Chrome 114.0.5735.134,,,2023-06-22 09:15:27,2023-06-22 09:15:27,0.240s,PASSED
+"td = findTestData(""MolecularTargetApI"")",Chrome 114.0.5735.134,,,2023-06-22 09:15:27,2023-06-22 09:15:28,0.563s,PASSED
+"for ([i = 1, i <= td.getRowNumbers(), (i++)])",Chrome 114.0.5735.134,,,2023-06-22 09:15:28,2023-06-22 09:18:52,3m - 23.979s,PASSED
+closeBrowser(),Chrome 114.0.5735.134,,,2023-06-22 09:18:52,2023-06-22 09:18:52,0.559s,PASSED
