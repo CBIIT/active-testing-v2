@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.setViewPortSize(1779, 908)
+WebUI.setViewPortSize(1779, 790)
 
 TestData td = findTestData('MolecularTargetApI')
 
