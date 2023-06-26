@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>121b549a-8c8c-42f9-97e4-e316039002f6</dataFileGUID>
-   <dataSourceUrl>MTP_TEST_SHEET/FNL_test_cases_v2.xlsx</dataSourceUrl>
+   <dataSourceUrl>MTP_TEST_SHEET/FNL_test_cases_error_simulation.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
