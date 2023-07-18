@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>121b549a-8c8c-42f9-97e4-e316039002f6</dataFileGUID>
-   <dataSourceUrl>../../../../Downloads/chop_fnl_test_cases_v4.xlsx</dataSourceUrl>
+   <dataSourceUrl>../../../../Downloads/fnl.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>ChoP</sheetName>
+   <sheetName>Sheet1</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MTPAPI_Plotly" time="4118.239" tests="1" failures="1" errors="0">
+   <testsuite name="MTPAPI_Plotly" tests="1" failures="1" errors="0" time="4118.239" skipped="0" timestamp="2023-07-18 13:52:39" hostname="lollal - NCI-02226501-L.nci.nih.gov" id="Test Suites/MTPAPI_Plotly">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lollal\\Documents\\Katalon\\V2_Visual_test\\active-testing-v2\\Reports\\20230718_135227\\MTPAPI_Plotly\\20230718_135227"/>
+         <property name="logFiles" value="C:\\Users\\lollal\\Documents\\Katalon\\V2_Visual_test\\active-testing-v2\\Reports\\20230718_135227\\MTPAPI_Plotly\\20230718_135227\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-evidence_ENSG00000171094_EFO_0000621_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000122025_EFO_0000222_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000141510_EFO_0000637_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000097007_EFO_0000220_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000120341_EFO_1002008_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000097007_EFO_0000220_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000276261_EFO_0000658_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000276261_EFO_0000658_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000183324_MONDO_0021637_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000126107_EFO_1000475_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000221697_EFO_0000350_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000171094_EFO_0000621_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000122025_EFO_0000222_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000126107_EFO_1000475_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000221697_EFO_0000350_tpm_gene-disease-tcga_log10.png, keyes\keyes-target_ENSG00000118058_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000122025_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000130826_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000132591_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000133703_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000118058_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000122025_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000130826_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000132591_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000133703_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000141510_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000146648_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000147533_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000157214_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000157764_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000165215_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000089248_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000089505_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000130826_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000132591_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000133703_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000089248_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000089505_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000102870_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000108733_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000109323_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000118058_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000122025_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000130826_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000132591_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000133703_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-disease_EFO_0000094_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000174_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000220_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000621_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000632_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006058_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006412_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000309_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015798_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015864_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016642_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016680_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016690_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000094_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000174_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015864_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016642_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016680_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016690_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016691_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000094_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000309_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006058_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006412_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000309_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000621_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000632_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015798_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015864_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016642_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016680_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000174_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000621_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000632_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006058_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006412_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0008978_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015032_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, C:\\Users\\lollal\\Documents\\Katalon\\V2_Visual_test\\active-testing-v2\\Reports\\20230718_135227\\MTPAPI_Plotly\\20230718_135227\\1689704550439.png, keyes\keyes-evidence_ENSG00000171094_EFO_0000621_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000122025_EFO_0000222_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000141510_EFO_0000637_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000097007_EFO_0000220_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000120341_EFO_1002008_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000097007_EFO_0000220_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000276261_EFO_0000658_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000276261_EFO_0000658_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000183324_MONDO_0021637_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000126107_EFO_1000475_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000221697_EFO_0000350_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000171094_EFO_0000621_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000122025_EFO_0000222_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000126107_EFO_1000475_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000221697_EFO_0000350_tpm_gene-disease-tcga_log10.png, keyes\keyes-target_ENSG00000118058_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000122025_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000130826_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000132591_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000133703_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000118058_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000122025_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000130826_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000132591_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000133703_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000141510_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000146648_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000147533_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000157214_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000157764_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000165215_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000089248_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000089505_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000130826_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000132591_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000133703_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000089248_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000089505_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000102870_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000108733_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000109323_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000118058_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000122025_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000130826_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000132591_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000133703_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-disease_EFO_0000094_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000174_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000220_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000621_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000632_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006058_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006412_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000309_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015798_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015864_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016642_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016680_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016690_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000094_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000174_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015864_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016642_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016680_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016690_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016691_top_gene_disease_gtex_diff_exp_cgc_all_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000094_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000309_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006058_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006412_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000309_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000621_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000632_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015798_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015864_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016642_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0016680_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000174_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000621_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000632_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006058_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006412_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0008978_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0015032_top_gene_disease_gtex_diff_exp_cgc_pmtl_gene_up_and_down_reg_rank_box_false.png, C:\\Users\\lollal\\Documents\\Katalon\\V2_Visual_test\\active-testing-v2\\Reports\\20230718_135227\\MTPAPI_Plotly\\20230718_135227\\1689705929146.png, keyes\keyes-evidence_ENSG00000171094_EFO_0000621_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000122025_EFO_0000222_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000141510_EFO_0000637_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000097007_EFO_0000220_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000120341_EFO_1002008_tpm_gene_disease_gtex_linear.png, keyes\keyes-evidence_ENSG00000097007_EFO_0000220_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000276261_EFO_0000658_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene_disease_gtex_log10.png, keyes\keyes-evidence_ENSG00000135903_EFO_0002918_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000276261_EFO_0000658_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000183324_MONDO_0021637_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000126107_EFO_1000475_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000221697_EFO_0000350_tpm_gene-disease-tcga_linear.png, keyes\keyes-evidence_ENSG00000171094_EFO_0000621_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000122025_EFO_0000222_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000237761_MONDO_0022963_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000126107_EFO_1000475_tpm_gene-disease-tcga_log10.png, keyes\keyes-evidence_ENSG00000221697_EFO_0000350_tpm_gene-disease-tcga_log10.png, keyes\keyes-target_ENSG00000118058_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000122025_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000130826_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000132591_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000133703_dge_gene_all_cancer_gtex_diff_exp_box_true.png, keyes\keyes-target_ENSG00000118058_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000122025_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000130826_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000132591_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000133703_dge_gene_all_cancer_gtex_diff_exp_box_false.png, keyes\keyes-target_ENSG00000141510_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000146648_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000147533_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000157214_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000157764_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000165215_tpm_gene_all_cancer_linear.png, keyes\keyes-target_ENSG00000089248_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000089505_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000130826_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000132591_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000133703_tpm_gene_all_cancer_log10.png, keyes\keyes-target_ENSG00000089248_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000089505_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000102870_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000108733_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000109323_tpm_gene_all_cancer_tcga_log10.png, keyes\keyes-target_ENSG00000118058_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000122025_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000130826_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000132591_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-target_ENSG00000133703_tpm_gene_all_cancer_tcga_linear.png, keyes\keyes-disease_EFO_0000094_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000174_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000220_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000621_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000632_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0003222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006058_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0006412_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_and_down_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000222_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000309_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000350_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000500_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_EFO_0000502_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png, keyes\keyes-disease_MONDO_0002601_top_gene_disease_gtex_diff_exp_cgc_all_gene_up_reg_rank_box_false.png"/>
+         <property name="hostName" value="lollal - NCI-02226501-L.nci.nih.gov"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.87.43"/>
+         <property name="sessionId" value="3b86a7877fb7053b4b299cb084f35c85"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/MTP_1" time="82.566" classname="Test Cases/MTP_1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MTP_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&amp;efoId=EFO_0000621&amp;yAxisScale=linear&amp;includeTumorDesc=primaryOnly'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86a7877fb7053b4b299cb084f35c85
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-07-18 14:59:54 - [TEST_CASE][FAILED] - Test Cases/MTP_1: Test Cases/MTP_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86a7877fb7053b4b299cb084f35c85
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-07-18 14:59:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-18 14:59:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-18 14:59:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-18 14:59:55 - [MESSAGE][INFO] - User set preference: ['acceptInsecureCerts', 'true']
+
+2023-07-18 14:59:55 - [MESSAGE][INFO] - User set preference: ['args', '[--ignore-certificate-errors, --disable-dev-shm-usage]']
+
+2023-07-18 14:59:55 - [MESSAGE][INFO] - Action delay is set to 5,000 milliseconds
+
+2023-07-18 14:59:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-18 14:59:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-18 14:59:57 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-18 14:59:57 - [TEST_STEP][PASSED] - setViewPortSize(1800, 1200): Viewport is set to new size with width = 1800 and height = 1200
+
+2023-07-18 15:01:10 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1800 and height = 1200
+
+2023-07-18 15:01:10 - [TEST_STEP][PASSED] - td = findTestData("MolecularTargetApI"): null
+
+2023-07-18 15:01:11 - [TEST_STEP][FAILED] - for ([i = 1, i <= td.getRowNumbers(), (i++)]): Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86a7877fb7053b4b299cb084f35c85
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at Script1687292857483.run(Script1687292857483.groovy:32)
+	... 16 more
+)
+
+2023-07-18 15:01:11 - [TEST_STEP][PASSED] - url = td.getObjectValue("host", i) + td.getObjectValue("suffixUrl", i): null
+
+2023-07-18 15:01:11 - [TEST_STEP][FAILED] - navigateToUrl(url): Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86a7877fb7053b4b299cb084f35c85
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at Script1687292857483.run(Script1687292857483.groovy:32)
+	... 16 more
+)
+
+2023-07-18 15:01:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2023-07-18 15:01:17 - [MESSAGE][FAILED] - Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86a7877fb7053b4b299cb084f35c85
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at Script1687292857483.run(Script1687292857483.groovy:32)
+	... 16 more
+)]]></system-out>
+         <system-err><![CDATA[2023-07-18 14:59:54 - [TEST_CASE][FAILED] - Test Cases/MTP_1: Test Cases/MTP_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: Unable to receive message from renderer
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53097}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b86a7877fb7053b4b299cb084f35c85
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-18 13:52:39 - [TEST_SUITE][FAILED] - MTPAPI_Plotly: Test Cases/MTP_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'null'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b702fba36ac713f2f21cecb6a2d74b2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-18 13:52:39 - [TEST_SUITE][FAILED] - MTPAPI_Plotly: Test Cases/MTP_1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to navigate to 'null'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.navigateToUrl(NavigateToUrlKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword.execute(NavigateToUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.navigateToUrl(WebUiBuiltInKeywords.groovy:187)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$navigateToUrl$2.call(Unknown Source)
+	at MTP_1.run(MTP_1:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689702747608.run(TempTestSuite1689702747608.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NCI-02226501-L', ip: '192.168.87.43', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\lollal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b702fba36ac713f2f21cecb6a2d74b2
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringNavigation.to(EventFiringWebDriver.java:569)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.doCall(NavigateToUrlKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.NavigateToUrlKeyword$_navigateToUrl_closure1.call(NavigateToUrlKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
