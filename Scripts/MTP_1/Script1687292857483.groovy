@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.setViewPortSize(1779, 790)
+WebUI.setViewPortSize(1800, 1200)
 
 TestData td = findTestData('MolecularTargetApI')
 
@@ -32,7 +32,9 @@ for (int i = 1; i <= td.getRowNumbers(); i++) {
     WebUI.navigateToUrl(url)
 
     Thread.sleep(5000)
-System.print "hello" 
+
+    System.print('hello')
+
     WebUI.takeFullPageScreenshotAsCheckpoint(td.getObjectValue('testName', i))
 }
 

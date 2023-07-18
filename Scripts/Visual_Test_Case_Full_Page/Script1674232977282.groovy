@@ -30,7 +30,7 @@ String checkPointName = testName
 //for 
 WebUI.maximizeWindow()
 
-WebUI.setViewPortSize(1200, 99999)
+WebUI.setViewPortSize(1800, 1200)
 
 WebUI.navigateToUrl(url)
 
