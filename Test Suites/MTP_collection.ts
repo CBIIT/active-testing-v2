@@ -15,7 +15,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/FNL_Heatmaps_comparision</testSuiteEntity>
+         <testSuiteEntity>Test Suites/QA_FNL_Baseline</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
