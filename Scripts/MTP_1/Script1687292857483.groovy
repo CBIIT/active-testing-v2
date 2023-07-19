@@ -33,9 +33,16 @@ for (int i = 1; i <= td.getRowNumbers(); i++) {
 	    
 	Thread.sleep(5000)
 	
-	WebUI.click(findTestObject('Object Repository/Page_plot (18001200)/img'))
 	
-	Thread.sleep(500)
+	
+	if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_plot (18001200)/img'),1,FailureHandling.CONTINUE_ON_FAILURE) == true) {
+		
+		WebUI.click(findTestObject('Object Repository/Page_plot (18001200)/img'))
+		
+		}
+	
+		
+		 Thread.sleep(500)
 	
     WebUI.takeFullPageScreenshotAsCheckpoint(td.getObjectValue('testName', i))
 }
