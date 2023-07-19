@@ -16,29 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('https://moleculartargets-qa.ccdi.cancer.gov/tpm/gene-disease-gtex/plot?ensemblId=ENSG00000171094&efoId=EFO_0000621&yAxisScale=linear&includeTumorDesc=primaryOnly')
 
-WebUI.setViewPortSize(1800, 1200)
-
-TestData td = findTestData('MolecularTargetApI')
-
-for (int i = 1; i <= td.getRowNumbers(); i++) {
-    String url = td.getObjectValue('host', i) + td.getObjectValue('suffixUrl', i)
-
-    WebUI.navigateToUrl(url)
-	    
-	Thread.sleep(5000)
-	
-	WebUI.click(findTestObject('Object Repository/Page_plot (18001200)/img'))
-	
-	Thread.sleep(500)
-	
-    WebUI.takeFullPageScreenshotAsCheckpoint(td.getObjectValue('testName', i))
-}
+WebUI.click(findTestObject('Object Repository/Page_plot (18001200)/img'))
 
 WebUI.closeBrowser()
 
